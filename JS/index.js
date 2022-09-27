@@ -1,6 +1,6 @@
-for (var i = 0; i < 20; i++) {
-    for (var j = 0; j < 20; j++) {
-        document.write ("&#9728;")
+for (var i = 0; i < 10; i++) {
+    for (var j = 0; j < 10; j++) {
+        document.write ("*")
     }
     
     document.write ("<br>")
@@ -8,27 +8,57 @@ for (var i = 0; i < 20; i++) {
 
 document.write ("<br>")
 
-for (var i = 0; i < 20; i++) {
-    for (var j = (0 + i + 1); j < 20; j++) {
-        document.write ("&nbsp;")
+for (var i = 0; i < 10; i++) {
+    for (var j = 0 + i; j < 10; j++) {
+        document.write ("*")
     }
-    for (var k = (1 + i); k > 0; k--) {
-        document.write ("&#9728;")
-    }
+    
     
     document.write ("<br>")
 }
 
 document.write ("<br>")
 
-for (var i = 0; i < 20; i++) {
-    for (var k = (1 + i); k > 0; k--) {
-        document.write ("&#9728;")
+for (var i = 0; i < 10; i++) {
+    for (var j = 0 - i; j < 1; j++) {
+        document.write ("*")
     }
-    for (var j = (0 + i + 1); j < 20; j++) {
+    
+    
+    document.write ("<br>")
+}
+
+document.write ("<br>")
+
+for (var i = 0; i < 10; i++) {
+    for (var j = 0 + i + 1; j < 10; j++) {
         document.write ("&nbsp;")
     }
+    for (var k = 0 - i; k < 1; k++) {
+        document.write ("*")
+    }
+     
     
-    
+    document.write ("<br>")
+}
+
+document.write ("<br>")
+
+for (var i = 0; i < 10; i++) {
+    for (var j = 0 + i + 1; j < 10; j++) {
+        document.write ("&nbsp;")
+    }
+    for (var k = 0 - i; k < 1; k++) {
+        document.write ("*")
+    }
+    document.write ("<br>")
+}
+for (var i = 0; i < 10; i++) {
+    for (var j = 0 - i; j < 1; j++) {
+        document.write ("&nbsp;")
+    }
+    for (var k = 0 + i + 1; k < 10; k++) {
+        document.write ("*")
+    }
     document.write ("<br>")
 }
